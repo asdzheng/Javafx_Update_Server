@@ -1,4 +1,4 @@
 Javafx_Update_Server
 ====================
 
-javafx application update module server
+JavaFX_Update_Client site :  https://github.com/asdzheng/JavaFX_Update_Client
