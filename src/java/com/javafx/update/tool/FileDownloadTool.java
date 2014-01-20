@@ -9,10 +9,6 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-/**
- *
- * @author Richard
- */
 public class FileDownloadTool {
 
     public static FileData getFileData(String filePath, String localFolder, String projectRealPath) {
@@ -51,7 +47,7 @@ public class FileDownloadTool {
     public static HashMap<String, Object> putParamsIntoMap(ArrayList<FileData> files, long allFileSize) {
         HashMap<String, Object> map = new HashMap<String, Object>();
         map.put("files", files);
-        map.put("allFileSize", allFileSize + "");//长整型无法取出来，这里传字符串
+        map.put("allFileSize", allFileSize + "");
         return map;
     }
 

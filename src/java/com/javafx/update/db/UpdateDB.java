@@ -17,10 +17,6 @@ import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @HuaLun -- Richard
- */
 public class UpdateDB {
     
     private static Connection con;
